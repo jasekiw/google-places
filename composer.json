@@ -1,14 +1,26 @@
 {
-    "name": "jasekiw/google-places",
-    "description": "This package allows easier access to google places api",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "jasekiw",
-            "email": "jasongallavin@gmail.com"
-        }
-    ],
-    "minimum-stability": "alpha",
-    "require": {}
+  "name": "jasekiw/google-places",
+  "description": "This package allows easier access to google places api",
+  "type": "library",
+  "license": "MIT",
+  "version": "0.1.0",
+  "keywords": [
+    "google",
+    "places",
+    "api"
+  ],
+  "authors": [
+    {
+      "name": "jasekiw",
+      "email": "jasongallavin@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GoolePlaces": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.0"
+  }
 }
