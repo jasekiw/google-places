@@ -1,0 +1,14 @@
+{
+    "name": "jasekiw/google-places",
+    "description": "This package allows easier access to google places api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jasekiw",
+            "email": "jasongallavin@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}
+}
